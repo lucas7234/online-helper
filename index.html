@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<title>온라인 개학 도우미(초~중학생용)</title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="keywords" content="온라인 개학, 온라인 수업, 원격수업, 원격수업 도우미, 온라인 수업 도우미, 온라인 개학 도우미">
+		<meta name="description" content="초~중학생용 온라인 개학 도우미">
+		<meta name="authors" content="Hyper Lab Inc.">
+		<link rel="stylesheet" href="script/style.css">
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+		<script src="script/script.js"></script>
+	</head>
+	<body>
+		<header>
+			<h1>온라인 개학 도우미<sup>초~중학생용</sup></h1><h5>편리하게 온라인 수업 참여</h5>
+			<nav>
+				<ul>
+					<li><a href="#article1">화상회의 주소 설정 & 조회</a></li>
+					<li><a href="#article2">클래스 주소 설정 & 조회</a></li>
+					<li><a href="#article3">과제방 주소 설정 & 조회</a></li>
+					<li><a href="#article4">시간표 설정 & 조회</a></li>
+				</ul>
+			</nav>
+		</header>
+		<hr>
+		<main>
+			<article id="article1">
+				<h2>화상회의 주소 설정 & 조회</h2>
+				<button id="button1" onclick="fix1();">수정</button>
+				<ol>
+					<li id="subject1">국어: <a target="_blank"></a><input size="60" type="url" placeholder="과목별 Zoom / Google Meet URL 입력"></li>
+					<li id="subject2">수학: <a target="_blank"></a><input size="60" type="url" placeholder="과목별 Zoom / Google Meet URL 입력"></li>
+					<li id="subject3">사회: <a target="_blank"></a><input size="60" type="url" placeholder="과목별 Zoom / Google Meet URL 입력"></li>
+					<li id="subject4">과학: <a target="_blank"></a><input size="60" type="url" placeholder="과목별 Zoom / Google Meet URL 입력"></li>
+					<li id="subject5">영어: <a target="_blank"></a><input size="60" type="url" placeholder="과목별 Zoom / Google Meet URL 입력"></li>
+					<li id="subject6">체육: <a target="_blank"></a><input size="60" type="url" placeholder="과목별 Zoom / Google Meet URL 입력"></li>
+					<li id="subject7">도덕: <a target="_blank"></a><input size="60" type="url" placeholder="과목별 Zoom / Google Meet URL 입력"></li>
+					<li id="subject8">미술: <a target="_blank"></a><input size="60" type="url" placeholder="과목별 Zoom / Google Meet URL 입력"></li>
+					<li id="subject9">음악: <a target="_blank"></a><input size="60" type="url" placeholder="과목별 Zoom / Google Meet URL 입력"></li>
+					<li id="subject10">한문: <a target="_blank"></a><input size="60" type="url" placeholder="과목별 Zoom / Google Meet URL 입력"></li>
+					<li id="subject11">기가(실과): <a target="_blank"></a><input size="60" type="url" placeholder="과목별 Zoom / Google Meet URL 입력"></li>
+					<li id="subject12">진로: <a target="_blank"></a><input size="60" type="url" placeholder="과목별 Zoom / Google Meet URL 입력"></li>
+					<li id="subject13">정보: <a target="_blank"></a><input size="60" type="url" placeholder="과목별 Zoom / Google Meet URL 입력"></li>
+					<li id="subject14">동아리: <a target="_blank"></a><input size="60" type="url" placeholder="과목별 Zoom / Google Meet URL 입력"></li>
+				</ol>
+			</article>
+			<article id="article2">
+				<h2>클래스 주소 설정 & 조회</h2>
+				<button id="button2" onclick="fix2();">수정</button>
+				<ol>
+					<li id="subject15">국어: <a target="_blank"></a><input size="60" type="url" placeholder="과목별 e학습터, 위두랑, 온라인클래스 URL 입력"></li>
+					<li id="subject16">수학: <a target="_blank"></a><input size="60" type="url" placeholder="과목별 e학습터, 위두랑, 온라인클래스 URL 입력"></li>
+					<li id="subject17">사회: <a target="_blank"></a><input size="60" type="url" placeholder="과목별 e학습터, 위두랑, 온라인클래스 URL 입력"></li>
+					<li id="subject18">과학: <a target="_blank"></a><input size="60" type="url" placeholder="과목별 e학습터, 위두랑, 온라인클래스 URL 입력"></li>
+					<li id="subject19">영어: <a target="_blank"></a><input size="60" type="url" placeholder="과목별 e학습터, 위두랑, 온라인클래스 URL 입력"></li>
+					<li id="subject20">체육: <a target="_blank"></a><input size="60" type="url" placeholder="과목별 e학습터, 위두랑, 온라인클래스 URL 입력"></li>
+					<li id="subject21">도덕: <a target="_blank"></a><input size="60" type="url" placeholder="과목별 e학습터, 위두랑, 온라인클래스 URL 입력"></li>
+					<li id="subject22">미술: <a target="_blank"></a><input size="60" type="url" placeholder="과목별 e학습터, 위두랑, 온라인클래스 URL 입력"></li>
+					<li id="subject23">음악: <a target="_blank"></a><input size="60" type="url" placeholder="과목별 e학습터, 위두랑, 온라인클래스 URL 입력"></li>
+					<li id="subject24">한문: <a target="_blank"></a><input size="60" type="url" placeholder="과목별 e학습터, 위두랑, 온라인클래스 URL 입력"></li>
+					<li id="subject25">기가(실과): <a target="_blank"></a><input size="60" type="url" placeholder="과목별 e학습터, 위두랑, 온라인클래스 URL 입력"></li>
+					<li id="subject26">진로: <a target="_blank"></a><input size="60" type="url" placeholder="과목별 e학습터, 위두랑, 온라인클래스 URL 입력"></li>
+					<li id="subject27">정보: <a target="_blank"></a><input size="60" type="url" placeholder="과목별 e학습터, 위두랑, 온라인클래스 URL 입력"></li>
+					<li id="subject28">동아리: <a target="_blank"></a><input size="60" type="url" placeholder="과목별 e학습터, 위두랑, 온라인클래스 URL 입력"></li>
+				</ol>
+			</article>
+			<article id="article3">
+				<h2>과제방 주소 설정 & 조회</h2>
+				<button id="button3" onclick="fix3();">수정</button>
+								<ol>
+					<li id="subject29">국어: <a target="_blank"></a><input size="60" type="url" placeholder="과목별 e학습터, 위두랑, 온라인클래스 과제방 URL 입력"></li>
+					<li id="subject30">수학: <a target="_blank"></a><input size="60" type="url" placeholder="과목별 e학습터, 위두랑, 온라인클래스 과제방 URL 입력"></li>
+					<li id="subject31">사회: <a target="_blank"></a><input size="60" type="url" placeholder="과목별 e학습터, 위두랑, 온라인클래스 과제방 URL 입력"></li>
+					<li id="subject32">과학: <a target="_blank"></a><input size="60" type="url" placeholder="과목별 e학습터, 위두랑, 온라인클래스 과제방 URL 입력"></li>
+					<li id="subject33">영어: <a target="_blank"></a><input size="60" type="url" placeholder="과목별 e학습터, 위두랑, 온라인클래스 과제방 URL 입력"></li>
+					<li id="subject34">체육: <a target="_blank"></a><input size="60" type="url" placeholder="과목별 e학습터, 위두랑, 온라인클래스 과제방 URL 입력"></li>
+					<li id="subject35">도덕: <a target="_blank"></a><input size="60" type="url" placeholder="과목별 e학습터, 위두랑, 온라인클래스 과제방 URL 입력"></li>
+					<li id="subject36">미술: <a target="_blank"></a><input size="60" type="url" placeholder="과목별 e학습터, 위두랑, 온라인클래스 과제방 URL 입력"></li>
+					<li id="subject37">음악: <a target="_blank"></a><input size="60" type="url" placeholder="과목별 e학습터, 위두랑, 온라인클래스 과제방 URL 입력"></li>
+					<li id="subject38">한문: <a target="_blank"></a><input size="60" type="url" placeholder="과목별 e학습터, 위두랑, 온라인클래스 과제방 URL 입력"></li>
+					<li id="subject39">기가(실과): <a target="_blank"></a><input size="60" type="url" placeholder="과목별 e학습터, 위두랑, 온라인클래스 과제방 URL 입력"></li>
+					<li id="subject40">진로: <a target="_blank"></a><input size="60" type="url" placeholder="과목별 e학습터, 위두랑, 온라인클래스 과제방 URL 입력"></li>
+					<li id="subject41">정보: <a target="_blank"></a><input size="60" type="url" placeholder="과목별 e학습터, 위두랑, 온라인클래스 과제방 URL 입력"></li>
+					<li id="subject42">동아리: <a target="_blank"></a><input size="60" type="url" placeholder="과목별 e학습터, 위두랑, 온라인클래스 과제방 URL 입력"></li>
+				</ol>
+			</article>
+			<article id="article4">
+				<h2>시간표 설정 & 조회</h2>
+				<figure>
+					<iframe src="http://112.186.146.81:4082/st" height="350px" width="480px">
+					<figcaption style="font-size:1.25rem;"><a style="text-decoration:underline;" href="https://컴시간학생.kr">컴시간 학생시간표</a><figcaption>
+				</figure>
+			</article>
+					<hr>
+			<footer>Hyper Lab Inc.
+			<address><a href="mailto:lucas7234119@hotmail.com">lucas7234119@hotmail.com</a> | <a href="https://github.com/lucas7234/onlinehelper">Source Code</a> | <a href="https://github.com/lucas7234">Github</a></address>
+			<script>alert()</script>
+		</footer>
+		</main>
+	
+	</body>
+</html>
